@@ -37,7 +37,7 @@ async def bot(c:Client,m:Message):
 	c = await m.reply("جارى الرد...")
 	
 	ph = get_url(ph_url.format(order))
-	ph3 = ph["data"][0]["url"]
+	ph3 = ph["url"]
 	
 	tx = get_url(text_url.format(order))
 	tx3 = tx["choices"][0]["text"]
