@@ -7,7 +7,7 @@ def get_url(url):
 	result = Get(url).json()
 	return result
 
-ph_url = "https://api.dlyar-dev.tk/open-ai-img.json?key=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&text={}"
+ph_url = "https://apig.herokuapp.com/get?text={}"
 
 text_url = "https://api.dlyar-dev.tk/open-ai.json?key=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&text={}"
 
